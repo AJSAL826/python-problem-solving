@@ -2,7 +2,7 @@ import sqlalchemy as db
 from sqlalchemy import Integer, String, MetaData, Numeric, Table, Column, ForeignKey
 
 # Establish a database connection
-engine = db.create_engine('postgresql://postdb:postdb616@localhost:5432/btech')
+engine = db.create_engine('')
 meta = MetaData()
 
 # Create the 'courses' table with 'ID' as the primary key

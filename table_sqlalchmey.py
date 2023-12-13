@@ -1,7 +1,7 @@
 import sqlalchemy as db
 from sqlalchemy import Integer, String, Numeric, MetaData, Table, Column, ForeignKey
 
-engine = db.create_engine('postgresql://postdb:postdb616@localhost:5432/btech')
+engine = db.create_engine('')
 meta = MetaData()
 
 courses = Table('courses', meta,
@@ -21,7 +21,7 @@ conn = engine.connect()
 import sqlalchemy as db
 from sqlalchemy import Integer, String, Numeric, MetaData, Table, Column, ForeignKey
 
-engine = db.create_engine('postgresql://postdb:postdb616@localhost:5432/btech')
+engine = db.create_engine('')
 meta = MetaData()
 
 courses = Table('courses', meta,
